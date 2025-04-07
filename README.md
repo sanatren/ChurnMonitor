@@ -53,4 +53,43 @@ ChurnMonitor is an AI-powered application that predicts whether bank customers a
 The churn prediction model is built using a TensorFlow-based Artificial Neural Network with:
 - Input layer matching the feature dimensions
 - Hidden layers with ReLU activation functions
-- Dropou
+- Dropout layers to prevent overfitting
+- Binary classification output with sigmoid activation
+- Adam optimizer and binary crossentropy loss function
+
+## 🚀 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/churn-monitor.git
+cd churn-monitor
+
+# Create and activate virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run App.py
+```
+
+## 🔧 Usage
+1. Input customer details using the provided form controls
+2. Click the "Predict" button to get the churn probability
+3. View the prediction result with visual indicators
+
+## 🔮 Future Improvements
+- Feature importance visualization
+- Model explanation using SHAP values
+- Customer segmentation analysis
+- Recommendations for retention strategies
+- A/B testing framework for retention tactics
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+- The dataset was sourced from a financial analytics competition
+- Special thanks to the Streamlit community for the deployment tools
