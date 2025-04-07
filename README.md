@@ -5,13 +5,18 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-## 📊 Live Demo
-Experience the prediction model in action: [ChurnMonitor App](https://churnmonitoring.streamlit.app/)
-
-## 📋 Overview
+## Overview
 ChurnMonitor is an AI-powered application that predicts whether bank customers are likely to leave based on their profile data. The model analyzes customer characteristics and behaviors to identify potential churn risk, enabling proactive customer retention strategies.
 
-## 🧠 Tech Stack
+## Usage
+1. Input customer details using the provided form controls
+2. Click the "Predict" button to get the churn probability
+3. View the prediction result with visual indicators
+
+##  Live Demo
+Experience the prediction model in action: [ChurnMonitor App](https://churnmonitoring.streamlit.app/)
+
+##  Tech Stack
 
 ### ML Framework
 - **TensorFlow**: Built and trained an Artificial Neural Network (ANN) to predict customer churn
@@ -34,7 +39,7 @@ ChurnMonitor is an AI-powered application that predicts whether bank customers a
 - **TensorBoard**: Monitored and visualized training metrics
 - **Keras-Tuner**: Performed hyperparameter optimization
 
-## 🔍 Features
+##  Features
 
 ### Technical Features
 - **Deep Learning Model**: Multi-layer Artificial Neural Network trained to recognize patterns associated with customer churn
@@ -49,7 +54,7 @@ ChurnMonitor is an AI-powered application that predicts whether bank customers a
 - **Responsive Design**: Clean interface that works across different devices
 - **Custom Styling**: Professional appearance with custom fonts and gradient buttons
 
-## 📈 Model Architecture
+##  Model Architecture
 The churn prediction model is built using a TensorFlow-based Artificial Neural Network with:
 - Input layer matching the feature dimensions
 - Hidden layers with ReLU activation functions
@@ -57,7 +62,7 @@ The churn prediction model is built using a TensorFlow-based Artificial Neural N
 - Binary classification output with sigmoid activation
 - Adam optimizer and binary crossentropy loss function
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ```bash
 # Clone the repository
@@ -75,21 +80,4 @@ pip install -r requirements.txt
 streamlit run App.py
 ```
 
-## 🔧 Usage
-1. Input customer details using the provided form controls
-2. Click the "Predict" button to get the churn probability
-3. View the prediction result with visual indicators
 
-## 🔮 Future Improvements
-- Feature importance visualization
-- Model explanation using SHAP values
-- Customer segmentation analysis
-- Recommendations for retention strategies
-- A/B testing framework for retention tactics
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgements
-- The dataset was sourced from a financial analytics competition
-- Special thanks to the Streamlit community for the deployment tools
